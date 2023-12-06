@@ -1,0 +1,62 @@
+.header-admin {
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    &__nav-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .anticon {
+            font-size: 21px
+        }
+    }
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 199px;
+        transition: all 0.25s;
+        img {
+            height: 56px;
+        }
+        span {
+            font-size: 14px;
+            display: inline-block;
+            font-weight: 500;
+            letter-spacing: 4px;
+            margin-left: 8px;
+            color: #8BDAF0;
+        }
+    }
+    &__logo-fold {
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s;
+        img {
+            height: 56px;
+        }
+    }
+    &__nav-right {
+        padding-right: 16px;
+        a{
+            margin-left: 10px;
+            a.active .ant-btn {
+                color: #1677ff;
+            }
+        }
+    }
+}
+
+.ant-layout-content {
+    padding: 26px 20px 40px 20px;
+    background-color: #f9fbfd;
+}

@@ -1,0 +1,14 @@
+.job-detail {
+    &__name h2 {
+        margin-top: 8px;
+    }
+    b {
+        font-weight: 500;
+    }
+    &__description p {
+        text-align: justify;
+        line-height: 1.4;
+        margin-top: 8px;
+        font-size: 14px;
+    }
+}

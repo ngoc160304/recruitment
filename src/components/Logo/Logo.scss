@@ -1,0 +1,27 @@
+.logo {
+    a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        img {
+            width: 60px;
+            margin-right: 10px;
+        }
+    }
+    &__content {
+        text-align: center;
+    }
+    &__title {
+        color: #17014A;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: 5px;
+        line-height: 27px;
+    }
+    &__text {
+        color: #8BDAF0;
+        font-size: 12px;
+        letter-spacing: 4px;
+        font-weight: 600;
+    }
+}

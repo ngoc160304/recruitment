@@ -1,0 +1,12 @@
+.company-detail {
+    margin-top: 26px;
+    &__title h1 {
+        margin: 8px 0;
+    }
+    &__info p {
+        margin: 0 0 12px;
+    }
+    .ant-card-body p {
+        margin: 0 0 6px;
+    }
+}

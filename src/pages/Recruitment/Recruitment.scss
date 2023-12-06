@@ -1,0 +1,13 @@
+.recruitment {
+    margin-top: 26px;
+    &__content h1 {
+        margin: 8px 0 12px;
+    }
+    &__job p {
+        margin: 8px 0;
+    }
+    &__submit.ant-btn {
+        font-weight: 500;
+        float: right;
+    }
+}

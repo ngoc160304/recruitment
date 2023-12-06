@@ -1,0 +1,8 @@
+.search-form {
+    &__input {
+        width: 100%;
+        .ant-form-item-control-input-content input {
+            height: 34px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.table {
+    &__add-job.ant-btn {
+        margin-bottom: 10px;
+    }
+    table {
+        border: 1px solid #ddd;
+    }
+    .ant-btn.action__button {
+        margin: 0 4px;
+    }
+}
+.ant-modal {
+    margin: 0 auto !important;
+    width: 700px !important;
+}
+
+.ant-form-item {
+    margin-bottom: 14px;
+}
+:where(.css-dev-only-do-not-override-2i2tap).ant-form-vertical .ant-form-item-label>label {
+    font-weight: 500;
+}

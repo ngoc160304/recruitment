@@ -1,0 +1,14 @@
+.company {
+    &__content b{
+        display: inline-block;
+        margin: 0 0 16px 0;
+    }
+    &__item {
+        p {
+            margin: 0 0 12px 0;
+        }
+    }
+    &__button {
+        margin-top: 16px;
+    }
+}

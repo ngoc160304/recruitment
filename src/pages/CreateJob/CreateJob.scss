@@ -1,0 +1,14 @@
+.form-create-job {
+    margin-top: 26px;
+    &__button {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    :where(.css-dev-only-do-not-override-2i2tap).ant-form-vertical .ant-form-item-label>label {
+        font-weight: 500;
+    }
+    .ant-form-item  {
+        margin: 0 0 14px 0;
+    }
+}

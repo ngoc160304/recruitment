@@ -1,0 +1,14 @@
+.result-search {
+    &__item p{
+        margin: 0 0 8px 0;
+    }
+    &__item .ant-card-head {
+        padding: 12px;
+    }
+    &__item .ant-card-body{
+        padding: 12px;
+    }
+    &__button-back {
+        margin-top: 16px;
+    }
+}

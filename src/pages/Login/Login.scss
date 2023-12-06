@@ -1,0 +1,21 @@
+.login-form {
+    width: 520px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 78px auto 0;
+    padding: 36px;
+    border-radius: 10px;
+    &__title {
+        text-align: center;
+        margin: 0;
+    }       
+    &__input {
+        margin: 0 0 18px 0;
+        .ant-btn {
+            height: 38px;
+            padding: 43px -1px;
+            font-size: 15px;
+            font-weight: 500;
+        }
+    }
+}
